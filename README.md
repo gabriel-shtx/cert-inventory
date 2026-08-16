@@ -1,5 +1,8 @@
 # cert-inventory
 
+<img width="1131" height="742" alt="image" src="https://github.com/user-attachments/assets/509d1fae-1292-43e6-8fda-c13da30ba0fb" />
+
+
 Inventário de certificados TLS via **Certificate Transparency** (crt.sh), agrupado pela Autoridade Certificadora (CA) que os emitiu.
 
 Consulta os logs públicos de CT para um ou mais domínios, identifica **quem emitiu cada certificado**, o **status de validade** (válido / expira em breve / vencido) e gera um **painel HTML** self-contained para visualização.
