@@ -30,7 +30,7 @@ Consulta os logs públicos de CT para um ou mais domínios, identifica **quem em
 
 ```bash
 # Um ou mais domínios
-python3 cert-inventory.py exemplo.com.br exemplo.com.ar
+python3 cert-inventory.py exemplo.com.br exemplo-2.com
 
 # A partir de um arquivo (um domínio por linha)
 python3 cert-inventory.py -f dominios.txt
