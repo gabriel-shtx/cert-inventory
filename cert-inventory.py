@@ -4,7 +4,7 @@ cert-inventory.py — Inventário de certificados emitidos via Certificate Trans
                     agrupado pela Autoridade Certificadora (CA) emissora.
 
 Uso:
-    python3 cert-inventory.py jacto.com.br jacto.com.ar
+    python3 cert-inventory.py dominio.com.br dominio2.com
     python3 cert-inventory.py -f dominios.txt
     python3 cert-inventory.py -f dominios.txt --ativos --csv certs.csv
     python3 cert-inventory.py -f dominios.txt --html painel.html
