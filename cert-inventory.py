@@ -625,7 +625,7 @@ render();
 
 def main():
     ap = argparse.ArgumentParser(description="Inventário de certificados por CA via crt.sh")
-    ap.add_argument("domains", nargs="*", help="domínios (ex: jacto.com.br)")
+    ap.add_argument("domains", nargs="*", help="domínios (ex: dominio.com.br)")
     ap.add_argument("-f", "--file", help="arquivo com um domínio por linha")
     ap.add_argument("--ativos", action="store_true", help="somente certificados válidos (não expirados)")
     ap.add_argument("--csv", help="exporta os certificados para CSV")
